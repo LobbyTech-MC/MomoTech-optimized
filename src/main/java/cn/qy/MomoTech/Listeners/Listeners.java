@@ -65,7 +65,9 @@ public final class Listeners implements Listener {
                             if(item.isDisabled()){
                                 ((Player)e.getDamager()).sendMessage("§f§l该物品已经被禁用!");
                             }else{
-                                ((Damageable)e.getEntity()).setHealth(0.0);
+                            	if (Math.random() < 0.01) {
+                            		((Damageable)e.getEntity()).setHealth(0.0);
+                                }
                                 return;
                             }
                         }
@@ -74,10 +76,13 @@ public final class Listeners implements Listener {
                             ((Player)e.getDamager()).sendMessage("§f§l该物品已经被禁用!");
                         }
                         else{
-                            e.setDamage(999999999999.99);
-                            e.getEntity().setGlowing(true);
-                            e.getEntity().setFreezeTicks(1000);
-                            e.getEntity().setFireTicks(1000);
+                        	if (Math.random() < 0.01) {
+                        		e.setDamage(9999.99);
+                                e.getEntity().setGlowing(true);
+                                e.getEntity().setFreezeTicks(1000);
+                                e.getEntity().setFireTicks(1000);
+                            }
+                            
                         }
                     }
                 }
