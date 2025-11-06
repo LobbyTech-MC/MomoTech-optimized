@@ -122,7 +122,7 @@ public class Items {
     public static final ItemStack FULL = new CustomItemStack(new ItemStack(Material.EGG), c("§#35c684饱§#2fc670和§#29c65c护§#24c648符"), "&b总是饿?前期做不起别的?用我!", "&b右键后消耗并立马获得饱和效果");
     public static final ItemStack DAMAGE_ITEM = new CustomItemStack(new ItemStack(Material.CHAIN_COMMAND_BLOCK), c("§#29c73a奇§#44ca39怪§#5fce38的§#7ad137东§#94d436西§#afd736（§#cadb35?"), "&e&l1% &c&l几率 &6&l造成 &4&l绝命一击 &6&l并秒杀对手!");
     public static final ItemStack[][] Mineral = new ItemStack[9][5];
-    public static final ItemStack STONE_SWORD = new CustomItemStack(Material.DIAMOND_SWORD, "&7&l胜利誓约之剑", "&8石中剑...", "&8有几率造成巨量伤害", "&81%几率 &8伤害+9999.99");
+    public static final ItemStack STONE_SWORD = new CustomItemStack(Material.DIAMOND_SWORD, "&7&l胜利誓约之剑", "&8石中剑...", "&8有几率造成巨量伤害", "&81% 几率 &8伤害+9999.99");
     public static final ItemStack FINAL_C_ = new CustomItemStack(Material.COBBLESTONE, c("§#e5de345§#c7df3d0§#a8df47重§#8ae050压§#6be15a缩§#4de163原§#2fe26c石§#10e376生§#10db7b成§#1ecf7d器"), "&7&l正确的, 你没听错", "&f谁知道呢 或许有点用处呢", "&7效率:8x");
     public static final ItemStack PROTECT_ITEM = new CustomItemStack(new ItemStack(Material.TURTLE_HELMET), c("§#2dc380原§#3bb883谅§#49ac85帽"), "&a戴在头上免疫实体攻击!", "&8不包括燃烧摔落等", "&7别问为啥是绿的");
     public static final ItemStack STAR_OF_ALL = new CustomItemStack(Material.HEART_OF_THE_SEA, c("§#58a088一§#66948a体§#6e8989机§#678080核§#607777心"), "&6&l用于合成本附属绝大部分的一体机");
